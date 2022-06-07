@@ -11,7 +11,7 @@
     "strict": true,    
     "moduleResolution": "node",    
     "baseUrl": "./",  
-    "paths": {s
+    "paths": {
       "@assets": ["./src/assets/index.ts"],
       "@components": ["./src/components/index.ts"],
       "@screens": ["./src/screens/index.ts"],
