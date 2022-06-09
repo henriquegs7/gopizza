@@ -1,2 +1,4 @@
-export { Button } from "./button";
-export { Input } from "./input";
+export { Button } from "./Button";
+export { ButtonBack } from "./ButtonBack";
+export { Input } from "./Input";
+export { Photo } from "./Photo";

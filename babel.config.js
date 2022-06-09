@@ -11,6 +11,7 @@ module.exports = {
           "@assets": "./src/assets/index.ts",
           "@components": "./src/components/index.ts",
           "@screens": "./src/screens/index.ts",
+          "@hooks": "./src/hooks/auth.tsx",
         },
       },
     ],

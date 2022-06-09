@@ -6,8 +6,8 @@ import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 import { ThemeProvider } from "styled-components/native";
 import theme from "./src/theme";
 
-import { Signin, Product } from "./src/screens";
-import { AuthProvider } from "./src/hooks/auth";
+import { Signin, Product } from "@screens";
+import { AuthProvider } from "@hooks";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
