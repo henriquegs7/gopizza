@@ -6,7 +6,7 @@ import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 import { ThemeProvider } from "styled-components/native";
 import theme from "./src/theme";
 
-import { Signin } from "./src/screens";
+import { Signin, Product } from "./src/screens";
 import { AuthProvider } from "./src/hooks/auth";
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
       <StatusBar style="light" translucent backgroundColor="transparent" />
 
       <AuthProvider>
-        <Signin />
+        <Product />
       </AuthProvider>
     </ThemeProvider>
   );
